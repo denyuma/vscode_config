@@ -1,0 +1,51 @@
+{
+    "workbench.colorTheme": "Default High Contrast", //カラーテーマ
+    "window.zoomLevel": -1,//拡大率
+    "code-runner.clearPreviousOutput": true, /*coderunner*/
+    "code-runner.runInTerminal": true, //coderunner ターミナル出力
+    "workbench.editor.enablePreview": false,
+    "editor.tabSize": 2, //インデントの大きさ2
+    "editor.insertSpaces": true, //Tabキーを押すとスペースが挿入
+    "editor.renderWhitespace": "all", //半角スペースに描写
+    "editor.minimap.enabled": false, //ミニマップを消去する
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",// ファイル編集後に自動保存
+    "editor.wordWrap": "on", //長い行は折かえして表示
+    "editor.hover.enabled": false,//ポップアップを削除
+    "liveServer.settings.donotShowInfoMsg": true, //liveserverの設定
+    "search.showLineNumbers": true,//検索結果に行番号を含める
+    "terminal.integrated.automationShell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",  //gitbashの設定
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.hover.sticky": false, //ホバーを表示し続けるかどうか制御
+    "emmet.includeLanguages": {
+    "javascript": "javascriptreact" //ReactでEmmet記法を利用できるようにする
+    },
+    "cSpell.userWords": [
+        "Batankyu",
+        "Hankaku",
+        "Zenkeshi",
+        "accountcontrol",
+        "csrf",
+        "javascripts",
+        "linebreak",
+        "messageform",
+        "messagequery",
+        "mypage",
+        "newroom",
+        "puyo",
+        "regist",
+        "resave",
+        "signup",
+        "socketio",
+        "sortablejs"
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "liveServer.settings.CustomBrowser": "chrome",
+    
+    
+}
