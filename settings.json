@@ -1,28 +1,28 @@
 {
-    "workbench.colorTheme": "Default High Contrast", //カラーテーマ
-    "window.zoomLevel": -1,//拡大率
     "code-runner.clearPreviousOutput": true, /*coderunner*/
     "code-runner.runInTerminal": true, //coderunner ターミナル出力
-    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreview": false, //エクスプローラーからファイルを開いたときプレビューになることを無効にする
     "editor.tabSize": 2, //インデントの大きさ2
     "editor.insertSpaces": true, //Tabキーを押すとスペースが挿入
     "editor.renderWhitespace": "all", //半角スペースに描写
     "editor.minimap.enabled": false, //ミニマップを消去する
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false, // ファイル削除のときのポップアップを無効
+    "explorer.confirmDragAndDrop": false, // ファイル移動のときのポップアップを無効
     "files.autoSave": "afterDelay",// ファイル編集後に自動保存
     "editor.wordWrap": "on", //長い行は折かえして表示
     "editor.hover.enabled": false,//ポップアップを削除
-    "liveServer.settings.donotShowInfoMsg": true, //liveserverの設定
+    "liveServer.settings.donotShowInfoMsg": true, //liveserverのinfoを非表示
     "search.showLineNumbers": true,//検索結果に行番号を含める
-    "terminal.integrated.automationShell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",  //gitbashの設定
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "editor.suggestSelection": "first",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", //defaultのターミナルをpowershell
+    "editor.suggestSelection": "first", //サジェスト(予測変換)の一覧の選択を一番上にする
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.hover.sticky": false, //ホバーを表示し続けるかどうか制御
+    "liveServer.settings.CustomBrowser": "chrome", // LiveserverのブラウザをChromeに設定
+    "window.zoomLevel": -1, 
     "emmet.includeLanguages": {
     "javascript": "javascriptreact" //ReactでEmmet記法を利用できるようにする
     },
+    
     "cSpell.userWords": [
         "Batankyu",
         "Hankaku",
@@ -44,8 +44,5 @@
     ],
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "liveServer.settings.CustomBrowser": "chrome",
-    
-    
+    }
 }
