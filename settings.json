@@ -10,15 +10,16 @@
     "explorer.confirmDragAndDrop": false, // ファイル移動のときのポップアップを無効
     "files.autoSave": "afterDelay",// ファイル編集後に自動保存
     "editor.wordWrap": "on", //長い行は折かえして表示
-    "editor.hover.enabled": false,//ポップアップを削除
     "liveServer.settings.donotShowInfoMsg": true, //liveserverのinfoを非表示
     "search.showLineNumbers": true,//検索結果に行番号を含める
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", //defaultのターミナルをpowershell
     "editor.suggestSelection": "first", //サジェスト(予測変換)の一覧の選択を一番上にする
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.hover.sticky": false, //ホバーを表示し続けるかどうか制御
+    "editor.hover.enabled": false,//ツールチップを削除
+    "editor.hover.sticky": false, //ツールチップを表示し続けるかどうか制御
     "liveServer.settings.CustomBrowser": "chrome", // LiveserverのブラウザをChromeに設定
     "window.zoomLevel": -1, 
+    "editor.formatOnSave": true, // 保存したときに自動フォーマットする
     "emmet.includeLanguages": {
     "javascript": "javascriptreact" //ReactでEmmet記法を利用できるようにする
     },
@@ -44,5 +45,6 @@
     ],
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
-    }
+    },
+    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltcIjAwRkZGRlwiLFwiOTk5OTk5XCIsXCIwMDgyMDBcIixcIjAwMDBGRlwiLFwiRkY5OTMzXCIsXCJGRkZGRkZcIixcIkZGRkYwMFwiLFwiRkYwMDAwXCIsXCIwMEZGMDBcIixcIkNDMDAwMFwiLFwiRkZGRjMzXCJdLFwiZm9ybWF0V2lkdGhcIjpcIjI0MFwiLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6OTgwLFwiaGVpZ2h0XCI6MTM5MH0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
 }
