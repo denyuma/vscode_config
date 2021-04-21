@@ -1,50 +1,58 @@
 {
-    "code-runner.clearPreviousOutput": true, /*coderunner*/
-    "code-runner.runInTerminal": true, //coderunner ターミナル出力
-    "workbench.editor.enablePreview": false, //エクスプローラーからファイルを開いたときプレビューになることを無効にする
-    "editor.tabSize": 2, //インデントの大きさ2
-    "editor.insertSpaces": true, //Tabキーを押すとスペースが挿入
-    "editor.renderWhitespace": "all", //半角スペースに描写
-    "editor.minimap.enabled": false, //ミニマップを消去する
-    "explorer.confirmDelete": false, // ファイル削除のときのポップアップを無効
-    "explorer.confirmDragAndDrop": false, // ファイル移動のときのポップアップを無効
-    "files.autoSave": "afterDelay",// ファイル編集後に自動保存
-    "editor.wordWrap": "on", //長い行は折かえして表示
-    "liveServer.settings.donotShowInfoMsg": true, //liveserverのinfoを非表示
-    "search.showLineNumbers": true,//検索結果に行番号を含める
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", //defaultのターミナルをpowershell
-    "editor.suggestSelection": "first", //サジェスト(予測変換)の一覧の選択を一番上にする
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.hover.enabled": false,//ツールチップを削除
-    "editor.hover.sticky": false, //ツールチップを表示し続けるかどうか制御
-    "liveServer.settings.CustomBrowser": "chrome", // LiveserverのブラウザをChromeに設定
-    "window.zoomLevel": -1, 
-    "editor.formatOnSave": true, // 保存したときに自動フォーマットする
-    "emmet.includeLanguages": {
+  "code-runner.clearPreviousOutput": true /*coderunner*/,
+  "code-runner.runInTerminal": true, //coderunner ターミナル出力
+  "workbench.editor.enablePreview": false, //エクスプローラーからファイルを開いたときプレビューになることを無効にする
+  "editor.tabSize": 2, //インデントの大きさ2
+  "editor.insertSpaces": false, // Tabによるインデント
+  "editor.renderWhitespace": "all", //半角スペースに描写
+  "editor.minimap.enabled": false, //ミニマップを消去する
+  "explorer.confirmDelete": false, // ファイル削除のときのポップアップを無効
+  "explorer.confirmDragAndDrop": false, // ファイル編集後に自動保存
+  "editor.wordWrap": "on", //長い行は折かえして表示
+  "liveServer.settings.donotShowInfoMsg": true, //liveserverのinfoを非表示
+  "search.showLineNumbers": true, //検索結果に行番号を含める
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", //defaultのターミナルをpowershell
+  "editor.suggestSelection": "first", //サジェスト(予測変換)の一覧の選択を一番上にする
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.hover.enabled": false, //ツールチップを削除
+  "editor.hover.sticky": false, //ツールチップを表示し続けるかどうか制御
+  "liveServer.settings.CustomBrowser": "chrome",
+  "editor.formatOnSave": true, // 保存したときに自動フォーマットする
+  "emmet.includeLanguages": {
     "javascript": "javascriptreact" //ReactでEmmet記法を利用できるようにする
-    },
-    
-    "cSpell.userWords": [
-        "Batankyu",
-        "Hankaku",
-        "Zenkeshi",
-        "accountcontrol",
-        "csrf",
-        "javascripts",
-        "linebreak",
-        "messageform",
-        "messagequery",
-        "mypage",
-        "newroom",
-        "puyo",
-        "regist",
-        "resave",
-        "signup",
-        "socketio",
-        "sortablejs"
-    ],
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltcIjAwRkZGRlwiLFwiOTk5OTk5XCIsXCIwMDgyMDBcIixcIjAwMDBGRlwiLFwiRkY5OTMzXCIsXCJGRkZGRkZcIixcIkZGRkYwMFwiLFwiRkYwMDAwXCIsXCIwMEZGMDBcIixcIkNDMDAwMFwiLFwiRkZGRjMzXCJdLFwiZm9ybWF0V2lkdGhcIjpcIjI0MFwiLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6OTgwLFwiaGVpZ2h0XCI6MTM5MH0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.useLanguageServer": true,
+  "go.alternateTools": {
+    "go-langserver": "gopls"
+  },
+  "go.languageServerExperimentalFeatures": {
+    "format": true,
+    "autoComplete": true,
+    "rename": true,
+    "goToDefinition": true,
+    "hover": true,
+    "signatureHelp": true,
+    "goToTypeDefinition": true,
+    "goToImplementation": true,
+    "documentSymbols": true,
+    "workspaceSymbols": true,
+    "findReferences": true,
+    "diagnostics": true
+  },
+  "[go]": {
+    "editor.snippetSuggestions": "none",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "gopls": {
+    "usePlaceholders": false
+  },
+  "window.zoomLevel": -1,
+  "diffEditor.ignoreTrimWhitespace": false
 }
